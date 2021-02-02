@@ -1,3 +1,5 @@
+USE ICT_tutorial_database
+
 SELECT Student_ID,Student_FirstName,Student_LastName,2021-YEAR(Student_Birthday) as age
 FROM Student
 WHERE Student_Email LIKE '%hotmail%'
@@ -7,7 +9,7 @@ FROM Student
 WHERE 2021-YEAR(Student_Birthday) > 20
 
 SELECT Student_FirstName+' '+Student_LastName as FULLNAME,s.Student_Email,s.Student_Phone
-FROM Student as s INNER JOIN Payment as p on s.Student_ID = p.Student_ID
+FROM Student as s LEFT JOIN Payment as p on s.Student_ID = p.Student_ID
 WHERE p.Transcation_ID is null
 
 SELECT s.Student_ID,pe.Exam_ID,Student_FirstName+' '+Student_LastName as FULLNAME,es.Score
