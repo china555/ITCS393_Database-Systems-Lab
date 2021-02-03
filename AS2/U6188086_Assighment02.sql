@@ -30,16 +30,37 @@ WHERE c.Instuctor_ID is null
 
 -- Question 5
 SELECT s.Student_FirstName, c.Course_Name, (SELECT SUM(b.Price)
-FROM BookStocking b
-WHERE s.Student_ID = ec.Student_ID and ec.Course_ID = c.Course_ID and c.Course_ID = b.Course_ID)
+    FROM BookStocking b
+    WHERE s.Student_ID = ec.Student_ID and ec.Course_ID = c.Course_ID and c.Course_ID = b.Course_ID)
 FROM Student s
     JOIN EnrollCourse ec on s.Student_ID = ec.Student_ID
     JOIN Course c on c.Course_ID = ec.Course_ID
--- SELECT AVG(Score)
--- FROM ExamScore
 
--- INSERT INTO PracticeExam
---     (Student_ID,Exam_ID)
--- VALUES(4, 6);
+-- Question 6
+SELECT TOP 1
+    i.Instructor_FirstName+' '+i.Instructor_LastName Fullname, c.Course_Amount
+FROM Instructor as i RIGHT JOIN Course as c on i.Instructor_ID = c.Instuctor_ID
+ORDER BY c.Course_Amount DESC;
 
--- DELETE FROM PracticeExam WHERE Student_ID = 4 AND Exam_ID =10;
+-- Question 7
+SELECT AVG(Score) as AverageScore
+FROM ExamScore
+
+-- Question 8
+SELECT Student_FirstName+' '+Student_LastName as FULLNAME, 2021-YEAR(Student_Birthday) as age
+FROM Student
+WHERE DAY(Student.Student_Birthday) = 27
+
+-- Question 9
+SELECT Student_FirstName+' '+Student_LastName as FULLNAME, 2021-YEAR(Student_Birthday) as age
+FROM Student
+WHERE Student_FirstName IN('KITTIKORN','NATTAWIPA')
+
+-- Question 10
+SELECT TOP 4
+    s.Student_FirstName + ' ' + s.Student_LastName as FullName,
+    e.Score
+FROM Student s
+    JOIN PracticeExam pe ON s.Student_ID = pe.Student_ID
+    JOIN ExamScore e ON pe.Exam_ID = e.Exam_ID
+ORDER BY e.Score DESC;
