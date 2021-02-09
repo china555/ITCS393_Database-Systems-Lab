@@ -3,14 +3,8 @@
 SELECT MAX(C.Course_Amount)
 From Course C
 
-SELECT S.Student_FirstName + ' '+ S.Student_LastName as Fullname, (SELECT MAX(C.Course_Amount)
-    From Course C) as course_amount
-From Student S
-WHERE (SELECT MAX(C.Course_Amount)
-From Course C
-WHERE MAX(C.Course_Amount) = c.Course_Amount)
-
-UPDATE Course
-SET Course_Amount
-= 70000 
-WHERE Course_ID = 209 
+SELECT AVG(Convert(int,c.Course_Amount)) as avg_amount_of_course, i.Instructor_FirstName + ' ' + i.Instructor_LastName as Instructor_fullname
+ FROM Instructor i JOIN Course c
+ on i.Instructor_ID = c.Instuctor_ID
+ WHERE Convert(int,c.Course_Amount) > 50000
+ GROUP BY i.Instructor_FirstName + ' ' + i.Instructor_LastName
