@@ -1,0 +1,11 @@
+CustomerNum,CustomerName,Street,City,State,Zip,Balance,CreditLine,RepNum
+148,Al's Appliance and Sport,2837 Greenway,Fillmore,FL,33363,6550,7500,20
+282,Brookings Direct,3827 Devon,Grove,FL,33321,431.5,10000,35
+356,Ferguson's,382 Wildwood,Northfield,FL,33146,5785,7500,65
+408,The Everything Shop,1828 Raven,Crystal,FL,33503,5285.25,5000,35
+462,Bargains Galore,3829 Central,Grove,FL,33321,3412,10000,65
+524,Kline's,838 Ridgeland,Fillmore,FL,33363,12762,15000,20
+608,Johnson's Department Store,372 Oxford,Sheldon,FL,33553,2106,10000,65
+687,Lee's Sport and Appliance,282 Evergreen,Altonville,FL,32543,2851,5000,35
+725,Deerfield's Four Seasons,282 Columbia,Sheldon,FL,33553,248,7500,35
+842,All Season,28 Lakeview,Grove,FL,33321,8221,7500,20

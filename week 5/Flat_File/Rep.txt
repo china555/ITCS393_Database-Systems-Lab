@@ -1,0 +1,4 @@
+RepNum,LastName,FirstName,Street,City,State,Zip,Commision,Rate
+20,Kaiser,Valerie,624 Randall,Grove,FL,33321,20542.5,5.0000000000000003E-2
+35,Hull,Richard,532 Jackson,Sheldon,FL,33553,39216,7.0000000000000007E-2
+65,Perez,Juan,1626 Taylor,Fillmore,FL,33336,23487,5.0000000000000003E-2
