@@ -1,0 +1,10 @@
+CustomerName,OrderNum,PartNum,Description,NumOrdered,QuotedPrice,Wherehouse,RepNum
+Al's Appliance and Sport,21608,AT94,Iron,11,21.95,3,20
+Al's Appliance and Sport,21619,DR93,Gas Range,1,495.00,2,20
+Brookings Direct,21614,KT03,Dishwasher,2,595.00,3,35
+Ferguson's,21610,DR93,Gas Range,1,495.00,2,65
+Ferguson's,21610,DW11,Washer,1,399.99,3,65
+Johnson's Department Store,21617,BV06,Home Gym,2,794.95,2,65
+Johnson's Department Store,21617,CD52,Microwave Oven,4,150.00,1,65
+Johnson's Department Store,21623,KV29,Treadmill,2,1290.00,2,65
+The Everything Shop,21613,KL62,Dryer,4,329.95,1,35
