@@ -1,0 +1,11 @@
+News_id,News_country
+1,United States
+2,USA
+3,Mars
+4,China
+5,Japan
+6,China
+7,United States
+8,United States
+9,China
+10,Japan

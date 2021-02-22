@@ -1,0 +1,11 @@
+News_id,News_Topic
+1,Supreme Court allows release of Trump tax returns to NY prosecutor
+2,NASA will share first video\, new images from Perseverance rover on Mars today
+3,An entire school board resigned after they criticized parents during a public virtual meeting
+4,The iPhone just had a huge quarter
+5,Golf world rallies around Michelle Wie West following Rudy Giuliani's 'highly inappropriate' comments on Steve Bannon podcast
+6,Disney+ warns viewers that 'The Muppet Show' includes offensive content
+7,College gymnast Margzetta Frazier had a surprise call from Janet Jackson -- and it got emotional
+8,Tiger Woods is hopeful but uncertain he'll be fit for this year's Masters after undergoing back surgery
+9,Nearly 30\,000 Macs reportedly infected with mysterious malware
+10,Ne-Yo 'overjoyed' as he and wife Crystal Smith prepare to welcome baby number 3

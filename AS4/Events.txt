@@ -1,0 +1,11 @@
+event_id,News_id,description
+1,1,The Supreme Court cleared the way for a New York prosecutor to obtain former President Donald Trump's tax returns\, dealing a massive loss to Trump who has fiercely fought to shield his financial papers from prosecutors.
+2,2,Get ready to see the first video from Mars\, courtesy of NASA's Perseverance rover -- and possibly the first sound.
+3,3,The president and three members of a school board in Northern California have resigned after they were heard making disparaging comments about parents in the school district during a virtual board meeting last Wednesday.
+4,4,Surging iPhone sales in the final three months of 2020 pushed Apple ahead of Samsung as the world's biggest smartphone maker\, according to new research.
+5,5,The golfing world has rallied around Michelle Wie West following comments made by Donald Trump's former lawyer Rudy Giuliani "objectifying" the five-time LPGA Tour winner.
+6,6,Disney+ is warning viewers that some episodes of "The Muppet Show" feature "negative depictions" and "mistreatment of people or cultures."
+7,7,College gymnast Margzetta Frazier received the call of a lifetime after going viral with a spectacular floor routine set to some of pop star Janet Jackson's greatest hits.
+8,8,Tiger Woods says he still hopes to compete at this year's Masters after undergoing the fifth back operation of his career.
+9,9,Nearly 30\,000 Macs world-wide have been infected with mysterious malware\, according to researchers at security firm Red Canary.
+10,10,Ne-Yo's family is growing -- and the R&B musician is delighted.
